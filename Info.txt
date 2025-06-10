@@ -1,0 +1,27 @@
+train.csv: il set di addestramento, comprensivo della variabile target 'crime_category' e degli attributi delle funzionalità rilevanti.
+test.csv: set di test, contenente attributi di funzionalità simili ma escludendo la variabile di destinazione 'crime_category', poiché è la variabile da prevedere
+
+Descrizione delle colonne:
+
+Luogo: Indirizzo del luogo del crimine.
+Cross_Street: Via trasversale dell'indirizzo arrotondato.
+Latitudine: Coordinate latitudine del luogo in cui è avvenuto il crimine.
+Longitudine: Coordinate longitudinali dell'incidente.
+Date_Reported: Data in cui è stato segnalato l'incidente.
+Date_Occurred: Data in cui si è verificato l'incidente.
+Time_Occurred: Ora in cui si è verificato l'incidente nel formato militare di 24 ore.
+Area_ID: numero dell'area geografica del LAPD.
+Area_Name: Designazione del nome dell'area geografica del LAPD.
+Reporting_District_no: Numero del distretto segnalante.
+Parte 1-2: Classificazione del crimine.
+Modus_Operandi: Attività associate al sospettato.
+Victim_Age: Età della vittima.
+Victim_Sex: Genere della vittima.
+Victim_Descent: Codice di discesa della vittima.
+Premise_Code: Codice della premessa che indica il luogo del crimine.
+Premise_Description: Descrizione del codice della premessa.
+Weapon_Used_Code: Codice dell'arma che indica il tipo di arma utilizzata.
+Weapon_Description: Descrizione del codice dell'arma.
+Stato: Stato del caso.
+Status_Description: Descrizione del codice di stato.
+Crime_Category: La categoria del crimine (variabile target)
