@@ -4,24 +4,24 @@ test.csv: set di test, contenente attributi di funzionalità simili ma escludend
 Descrizione delle colonne:
 
 Luogo: Indirizzo del luogo del crimine.
-Cross_Street: Via trasversale dell'indirizzo arrotondato.
-Latitudine: Coordinate latitudine del luogo in cui è avvenuto il crimine.
-Longitudine: Coordinate longitudinali dell'incidente.
-Date_Reported: Data in cui è stato segnalato l'incidente.
+Cross_Street: Via trasversale dell'indirizzo arrotondato. X
+Latitudine: Coordinate latitudine del luogo in cui è avvenuto il crimine. 
+Longitudine: Coordinate longitudinali dell'incidente. 
+Date_Reported: Data in cui è stato segnalato l'incidente. X
 Date_Occurred: Data in cui si è verificato l'incidente.
-Time_Occurred: Ora in cui si è verificato l'incidente nel formato militare di 24 ore.
-Area_ID: numero dell'area geografica del LAPD.
-Area_Name: Designazione del nome dell'area geografica del LAPD.
-Reporting_District_no: Numero del distretto segnalante.
+Time_Occurred: Ora in cui si è verificato l'incidente nel formato militare di 24 ore. X
+Area_ID: numero dell'area geografica del LAPD. (ENCODING)
+Area_Name: Designazione del nome dell'area geografica del LAPD. X
+Reporting_District_no: Numero del distretto segnalante. X
 Parte 1-2: Classificazione del crimine.
-Modus_Operandi: Attività associate al sospettato.
+Modus_Operandi: Attività associate al sospettato. X
 Victim_Age: Età della vittima.
 Victim_Sex: Genere della vittima.
-Victim_Descent: Codice di discesa della vittima.
-Premise_Code: Codice della premessa che indica il luogo del crimine.
+Victim_Descent: Etnia della vittima. X
+Premise_Code: Codice della premessa che indica il luogo del crimine. X
 Premise_Description: Descrizione del codice della premessa.
-Weapon_Used_Code: Codice dell'arma che indica il tipo di arma utilizzata.
+Weapon_Used_Code: Codice dell'arma che indica il tipo di arma utilizzata. X
 Weapon_Description: Descrizione del codice dell'arma.
-Stato: Stato del caso.
-Status_Description: Descrizione del codice di stato.
+Stato: Stato del caso. X
+Status_Description: Descrizione del codice di stato. X
 Crime_Category: La categoria del crimine (variabile target)
